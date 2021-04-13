@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>vOutlet</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        
+
+        <!-- Favicon -->
+        <link href="img/icon.png" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+         <!-- Top bar Start -->
+         <div class="top-bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <i class="fa fa-envelope"></i>
+                        support@email.com
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fa fa-phone-alt"></i>
+                        +880xxxxxxxxxx
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top bar End -->   
+        
+        <!-- Bottom Bar Start -->
+        <div class="bottom-bar">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-md-5 lo" >
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="img/logo.gif" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        
+                    </div>
+                    <div class="col-md-3 ">
+                        <div class="user">
+                            <a href="wishlist.html" class="btn wishlist">
+                                <i class="fa fa-heart"></i>
+                                <span>(0)</span>
+                            </a>
+                            <a href="cart.html" class="btn cart">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span>(0)</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bottom Bar End -->
+        
+        <!-- Nav Bar Start -->
+        <div class="nav">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  
+                        <div class="prdct">
+                            <a href="product-list.html" class="nav-item nav-link">Todays Sale</a>
+                            
+                        </div>
+                       <div class="navbar-nav ml-auto">
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Account</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Login</a>
+                                    <a href="#" class="dropdown-item">Register</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+        
+        <!-- Main categories Start -->
+		<div class="nav hideo">
+            <div class="container-fluid ">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">CATEGORIES</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+					
+                        <div class="header">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <nav class="navbar bg-light">
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fa fa-home"></i>Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i>Best Selling</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fa fa-plus-square"></i>New Arrivals</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fa fa-female"></i>Fashion & Beauty</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fa fa-child"></i>Kids & Babies Clothes</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fa fa-tshirt"></i>Men & Women Clothes</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fa fa-mobile-alt"></i>Gadgets & Accessories</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#"><i class="fa fa-microchip"></i>Electronics & Accessories</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Main categories End -->      
+                        
+                         
+                    </div>
+                </nav>
+            </div>
+        </div>
+		<!-- Main categories p2 start -->
+        <div class="header ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 navbar hidea">
+                        <nav class="navbar bg-light">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-home"></i>Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-shopping-bag"></i>Best Selling</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-plus-square"></i>New Arrivals</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-female"></i>Fashion & Beauty</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-child"></i>Kids & Babies Clothes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-tshirt"></i>Men & Women Clothes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-mobile-alt"></i>Gadgets & Accessories</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-microchip"></i>Electronics & Accessories</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- Main categories p2 End -->
+
+                    <!-- Main Slider Start End -->
+
+                    <div class="col-md-9 sldr">
+
+                        <div id="slider">
+                            <figure>
+                                <img src="img/desk.png">
+                                <img src="img/desk2.png">
+                                <img src="img/desk.png">
+                                <img src="img/desk3.png">
+                                <img src="img/desk.png">
+                            </figure>
+                        </div>
+                        
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Main Slider End -->     
+
+        <!-- Brand Start -->
+        <section class="text-center my-5">
+
+            <!-- Section heading -->
+            <h2 class="h1-responsive font-weight-bold text-center my-5">BRAND SHOPS</h2>
+            
+          </section>
+
+  
+    <!-- Grid row -->
+    <div class="row mb-lg-2 tl">
+  
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-2 mb-2 ">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-0 mb-2">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-0 mb-2">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-0 mb-2">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-0 mb-2">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-0 mb-2">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-0 mb-2">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-0 mb-2">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-0 mb-2">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-0 mb-2">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-0 mb-2">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-2 col-md-4 mb-lg-0 mb-2">
+        <!-- Card -->
+        <div class="card align-items-center">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img src="img/brand-1.png"
+              alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card image -->
+          <!-- Card content -->
+          <div class="card-body text-center">
+            <!-- Category & Title -->
+            
+              <h5>Brand Name</h5>
+            
+            <h5>
+              <strong class="lt">
+                <button type="button" class="btn btn-outline-danger"> <a href="" class="dark-grey-text">Shop Now
+                  
+                </a></button>
+
+              </strong>
+            </h5>
+            <h4 class="font-weight-bold blue-text">
+              <strong>50% off</strong>
+            </h4>
+          </div>
+          <!-- Card content -->
+        </div>
+        <!-- Card -->
+      </div>
+      <!-- Grid column -->
+
+
+
+    </div>
+
+
+        <!-- Brand End -->
+
+
+        <!-- Footer Start -->
+        <br>
+        <br>
+        <br>
+        <footer>
+            <div class="footer-container">
+                <div class="left-col">
+                    <img class="loggo" src="img/logo.png" alt="">
+                </div>
+                <div class="social-media">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <p class="right-texts">&copy;2021 Created by vOutket All right reserved</p>
+            </div>
+
+            <div class="rigt-col">
+                <h1>Our Newsletter</h1>
+                <div class="border"></div>
+                <p>Please Enter Your Email to Get Our News & Updates</p>
+                <form action="" class="newsletter-form">
+                    <input type="email" class="txtb" placeholder="Enter Your Email">
+                    <input type="submit" value="submit" class="btn">
+                </form>
+            </div>
+
+        </footer>
+        <!-- Footer End -->
+        
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+        
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
